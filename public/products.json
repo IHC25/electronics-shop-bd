@@ -1,0 +1,65 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Walton Refrigerator",
+    "price": 20000,
+    "img": "https://diamu.com.bd/wp-content/uploads/2021/03/Walton-Refrigerator-WFE-3C3-GDXX-XX-1.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "123e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Walton LED TV",
+    "price": 25000,
+    "img": "http://bdmarketprice.com/wp-content/uploads/2016/03/Walton-W43E3000-AS-Screen-size-43-inch-Smart-TV.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "122e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Walton Air Conditioner",
+    "price": 47500,
+    "img": "https://nirmaan.com.bd/wp-content/uploads/2020/06/Walton-1.5-Ton-Inverter-Air-Conditioner-WSI-RIVERINE-18C.nirmaan.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "121e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Samsung LED Monitor",
+    "price": 18000,
+    "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvMWFjNGExZTUtYjhkYi00YTI4LWIwYTItZDhiYmJhNTA3NzJlLjFjZGViN2JmOTQ0ZGI0NTQwODJmOWFjYzNhNGUwNTlkLmpwZWc.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "120e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Samsung Refrigerator",
+    "price": 94900,
+    "img": "https://static-01.daraz.com.bd/p/d8a8de5df50dc747c9fcb6bea2989b03.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "119e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Samsung Camera",
+    "price": 9700,
+    "img": "https://www.bdstall.com/asset/product-image/giant_20186.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "118e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "HP Pro Book",
+    "price": 65000,
+    "img": "https://www.notebookcheck.net/uploads/tx_nbc2/hp4535s.jpg",
+    "quantity": 0
+  },
+  {
+    "id": "117e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Mac Book Pro",
+    "price": 115000,
+    "img": "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "quantity": 0
+  },
+  {
+    "id": "116e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "name": "Singer Washing Machine",
+    "price": 40000,
+    "img": "https://singerbd.com/pub/media/catalog/product/cache/482df9e5219860e2561c4ec99993e0ed/7/3/7310-9710_1.jpg",
+    "quantity": 0
+  }
+]
