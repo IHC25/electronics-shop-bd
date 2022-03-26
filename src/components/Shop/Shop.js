@@ -21,6 +21,10 @@ const Shop = () => {
     }
     setCart(carts);
   };
+
+  const resetButtonHandle = () => {
+    setCart([]);
+  };
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -33,7 +37,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart carts={cart}></Cart>
+        <Cart carts={cart} resetButtonHandle={resetButtonHandle}></Cart>
       </div>
     </div>
   );

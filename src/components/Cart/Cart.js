@@ -3,7 +3,7 @@ import CartItem from "../CartItem/CartItem";
 import "./Cart.css";
 
 const Cart = (props) => {
-  const { carts } = props;
+  const { carts, resetButtonHandle } = props;
   const [suggestion, setSuggestion] = useState([]);
   const chooseButtonHandle = (items) => {
     const chosen = items[Math.floor(Math.random() * items.length)];
@@ -13,8 +13,11 @@ const Cart = (props) => {
     <div className="cart">
       <h3>Shopping Cart</h3>
       {carts.map((cart) => (
-        <CartItem cart={cart}></CartItem>
+        <CartItem cart={cart} key={cart.id}></CartItem>
       ))}
+      <button onClick={() => resetButtonHandle(carts)} className="reset-btn">
+        Reset
+      </button>
       <button onClick={() => chooseButtonHandle(carts)} className="choose-btn">
         Choose 1 For Me
       </button>
