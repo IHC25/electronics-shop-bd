@@ -5,6 +5,7 @@ import "./Cart.css";
 const Cart = (props) => {
   const { carts, resetButtonHandle } = props;
   const [suggestion, setSuggestion] = useState([]);
+  //   choose 1 for me button handler
   const chooseButtonHandle = (items) => {
     const chosen = items[Math.floor(Math.random() * items.length)];
     setSuggestion(chosen);

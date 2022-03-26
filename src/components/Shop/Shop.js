@@ -12,7 +12,7 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
-
+  // add to cart button handler
   const handleAddToCart = (selectedProduct) => {
     let carts = [...cart];
     const existed = carts.find((product) => product.id === selectedProduct.id);
@@ -21,7 +21,7 @@ const Shop = () => {
     }
     setCart(carts);
   };
-
+  // reset button handler
   const resetButtonHandle = () => {
     setCart([]);
   };
