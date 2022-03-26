@@ -3,6 +3,23 @@
   top: 0;
   padding: 30px 20px;
 }
+.choose-btn {
+  color: white;
+  background-color: #1c2b35;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+.choose-btn:hover {
+  background-color: black;
+}
+
+.buy-suggestion {
+  background-color: white;
+  margin: 2px;
+  font-weight: 500;
+}
 @media screen and (max-width: 480px) {
   .cart {
     padding: 0;
