@@ -1,0 +1,17 @@
+.cart-item {
+  background-color: white;
+  margin: 2px;
+}
+.cart-item img {
+  width: 80px;
+  height: 50px;
+  margin: 10px 0;
+}
+@media screen and (max-width: 480px) {
+  .cart-item img {
+    display: none;
+  }
+  .cart-item h3 {
+    font-size: 12px;
+  }
+}
